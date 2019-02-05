@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="headlesstesting-webapp-2.0-SNAPSHOT">
+        <wb-resource deploy-path="/" source-path="/target-ide/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="headlesstesting-application-2.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/headlesstesting-application/headlesstesting-application">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="headlesstesting-module-simple-2.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/headlesstesting-module-simple/headlesstesting-module-simple">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="isis-core-applib-2.0.0-M2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/isis-core-applib/isis-core-applib">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="isis-core-commons-2.0.0-M2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/isis-core-commons/isis-core-commons">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="isis-core-schema-2.0.0-M2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/isis-core-schema/isis-core-schema">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="isis-core-plugins-eventbus-axon-2.0.0-M2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/isis-core-plugins-eventbus-axon/isis-core-plugins-eventbus-axon">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="isis-core-plugins-codegen-bytebuddy-2.0.0-M2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/isis-core-plugins-codegen-bytebuddy/isis-core-plugins-codegen-bytebuddy">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="isis-core-plugins-discovery-reflections-2.0.0-M2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/isis-core-plugins-discovery-reflections/isis-core-plugins-discovery-reflections">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="isis-core-plugins-jdo-datanucleus-5-2.0.0-M2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/isis-core-plugins-jdo-datanucleus-5/isis-core-plugins-jdo-datanucleus-5">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="datanucleus-api-jdo-5.2.0-m2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/datanucleus-api-jdo/datanucleus-api-jdo">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="isis-core-plugins-jaxrs-resteasy-3-2.0.0-M2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/isis-core-plugins-jaxrs-resteasy-3/isis-core-plugins-jaxrs-resteasy-3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="isis-core-viewer-wicket-impl-2.0.0-M2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/isis-core-viewer-wicket-impl/isis-core-viewer-wicket-impl">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="isis-core-viewer-wicket-ui-2.0.0-M2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/isis-core-viewer-wicket-ui/isis-core-viewer-wicket-ui">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="isis-core-viewer-wicket-model-2.0.0-M2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/isis-core-viewer-wicket-model/isis-core-viewer-wicket-model">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="isis-core-metamodel-2.0.0-M2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/isis-core-metamodel/isis-core-metamodel">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="isis-core-runtime-2.0.0-M2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/isis-core-runtime/isis-core-runtime">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="isis-core-log4j-2.0.0-M2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/isis-core-log4j/isis-core-log4j">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="isis-core-viewer-restfulobjects-server-2.0.0-M2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/isis-core-viewer-restfulobjects-server/isis-core-viewer-restfulobjects-server">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="isis-core-viewer-restfulobjects-rendering-2.0.0-M2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/isis-core-viewer-restfulobjects-rendering/isis-core-viewer-restfulobjects-rendering">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="isis-core-viewer-restfulobjects-applib-2.0.0-M2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/isis-core-viewer-restfulobjects-applib/isis-core-viewer-restfulobjects-applib">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="isis-core-security-2.0.0-M2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/isis-core-security/isis-core-security">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="isis-core-webserver-2.0.0-M2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/isis-core-webserver/isis-core-webserver">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="headlesstesting-webapp"/>
+        <property name="java-output-path" value="/headlesstesting-webapp/target-ide/classes"/>
+    </wb-module>
+</project-modules>
