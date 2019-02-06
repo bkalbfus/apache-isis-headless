@@ -144,6 +144,10 @@
         </dependency>
 -->
 
+    	<dependency>
+    		<groupId>org.isisaddons.module.quartz</groupId>
+    		<artifactId>isis-module-quartz-dom</artifactId>
+    	</dependency>
     </dependencies>
 
     <profiles>

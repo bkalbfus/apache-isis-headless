@@ -8,6 +8,7 @@ domainapp\modules\simple\dom\impl\SimpleObjects_Test$Create.class
 domainapp\modules\simple\integtests\tests\SimpleObject_IntegTest$DataNucleusId.class
 domainapp\modules\simple\specglue\SimpleObjectsGlue.class
 domainapp\modules\simple\integtests\tests\SimpleObject_IntegTest$Name.class
+domainapp\modules\simple\specglue\PollingGlue.class
 domainapp\modules\simple\integtests\tests\SimpleObject_IntegTest$UpdateName.class
 domainapp\modules\simple\integtests\tests\SimpleObject_IntegTest.class
 domainapp\modules\simple\dom\impl\SimpleObjects_Test$Create$2.class

@@ -1,4 +1,23 @@
 -------------------------------------------------------------------------------
 Test set: RunIntegBddSpecs
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.541 s - in RunIntegBddSpecs
+Tests run: 10, Failures: 2, Errors: 2, Skipped: 3, Time elapsed: 3.853 s <<< FAILURE! - in RunIntegBddSpecs
+Then there are 10 simple objects  Time elapsed: 0 s  <<< ERROR!
+org.apache.isis.applib.NonRecoverableException: No IsisSession on current thread.
+
+Scenario: List SimpleObjects  Time elapsed: 0.08 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (2 failures)
+	No IsisSession on current thread.
+	No IsisSession on current thread.
+
+Scenario: Existing simple objects can be listed and new ones created  Time elapsed: 0.16 s  <<< ERROR!
+java.lang.NullPointerException
+
+Scenario: Existing simple objects can be listed and new ones created  Time elapsed: 0.167 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (3 failures)
+	<no message> in java.lang.NullPointerException
+	<no message> in java.lang.NullPointerException
+	No IsisSession on current thread.
+

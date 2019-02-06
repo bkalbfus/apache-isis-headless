@@ -10,15 +10,6 @@
         <dependent-module archiveName="headlesstesting-module-simple-2.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/headlesstesting-module-simple/headlesstesting-module-simple">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="isis-core-applib-2.0.0-M2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/isis-core-applib/isis-core-applib">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
-        <dependent-module archiveName="isis-core-commons-2.0.0-M2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/isis-core-commons/isis-core-commons">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
-        <dependent-module archiveName="isis-core-schema-2.0.0-M2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/isis-core-schema/isis-core-schema">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
         <dependent-module archiveName="isis-core-plugins-eventbus-axon-2.0.0-M2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/isis-core-plugins-eventbus-axon/isis-core-plugins-eventbus-axon">
             <dependency-type>uses</dependency-type>
         </dependent-module>
@@ -68,6 +59,15 @@
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <dependent-module archiveName="isis-core-webserver-2.0.0-M2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/isis-core-webserver/isis-core-webserver">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="isis-core-applib-2.0.0-M2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/isis-core-applib/isis-core-applib">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="isis-core-commons-2.0.0-M2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/isis-core-commons/isis-core-commons">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="isis-core-schema-2.0.0-M2.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/isis-core-schema/isis-core-schema">
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <property name="context-root" value="headlesstesting-webapp"/>
