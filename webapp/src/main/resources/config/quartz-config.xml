@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<job-scheduling-data
+    xmlns="http://www.quartz-scheduler.org/xml/JobSchedulingData"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.quartz-scheduler.org/xml/JobSchedulingData http://www.quartz-scheduler.org/xml/job_scheduling_data_1_8.xsd"
+    version="1.8">
+
+    <schedule>
+<!--         <job> -->
+<!--             <name>RunBackgroundCommandsJob</name> -->
+<!--             <group>CommandModule</group> -->
+<!--             <description>Runs all background commands</description> -->
+<!--             <job-class>org.isisaddons.module.quartz.dom.jobs.RunBackgroundCommandsJob</job-class> -->
+<!--             <job-data-map> -->
+<!--                 <entry> -->
+<!--                     <key>user</key> -->
+<!--                     <value>scheduler_user</value> -->
+<!--                 </entry> -->
+<!--                 <entry> -->
+<!--                     <key>roles</key> -->
+<!--                     <value>admin_role</value> -->
+<!--                 </entry> -->
+<!--             </job-data-map> -->
+<!--         </job> -->
+        <job>
+            <name>SimpleJob</name>
+            <group>CommandModule</group>
+            <description>Processes questionnaires from OQ database</description>
+            <job-class>domainapp.modules.simple.jobs.SimpleJob</job-class>
+            <job-data-map>
+                <entry>
+                    <key>user</key>
+                    <value>scheduler</value>
+                </entry>
+                <entry>
+                    <key>roles</key>
+                    <value>admin_role</value>
+                </entry>
+                <entry>
+                    <key>batch_size</key>
+                    <value>2</value>
+                </entry>
+            </job-data-map>
+        </job>
+        <trigger>
+<!--             <cron> -->
+<!--                 <name>RunBackgroundJobsEvery10Seconds</name> -->
+<!--                 <job-name>RunBackgroundCommandsJob</job-name> -->
+<!--                 <job-group>CommandModule</job-group> -->
+<!--                 <cron-expression>0/10 * * * * ?</cron-expression> -->
+<!--             </cron> -->
+            <cron>
+                <name>SimpleJobEvery10seconds</name>
+                <job-name>SimpleJob</job-name>
+                <job-group>CommandModule</job-group>
+                <cron-expression>0/10 * * * * ?</cron-expression>
+            </cron>
+        </trigger>
+    </schedule>
+</job-scheduling-data>
+
